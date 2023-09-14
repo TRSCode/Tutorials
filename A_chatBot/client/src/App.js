@@ -18,7 +18,8 @@ const App = () => {
     setValue('')
   }
 
-  const getMessages = async () => {
+  const getMessages = async (e) => {
+    e.preventDefault()
     const options = {
       method: "POST",
       body: JSON.stringify({
@@ -36,6 +37,7 @@ const App = () => {
     } catch (error) {
       console.error(error)
     }
+    // setValue('');
   }
   // console.log(message)
 
@@ -88,10 +90,14 @@ const App = () => {
           </li>)}
         </ul>
         <div className="bottom-section">
-          <div className="input-container">
+          <form onSubmit={getMessages} className="input-container"> {/* Added form element */}
             <input value={value} onChange={(e) => setValue(e.target.value)} />
             <div id="submit" onClick={getMessages}>➢</div>
-          </div>
+          </form> {/* Close form element */}
+          {/* <div className="input-container">
+            <input value={value} onChange={(e) => setValue(e.target.value)} />
+            <div id="submit" onClick={getMessages}>➢</div>
+          </div> */}
           <p className="info">
             Chat GPT Mar 14 Version.  Free Research Preview.
             Our goal is to make AI systems more natural and safe to interact with.
