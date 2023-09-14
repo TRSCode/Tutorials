@@ -22,3 +22,8 @@
 
 - __A_chatBot__ ***(v4)***
     - https://www.youtube.com/watch?v=JJ9fkYX7q4A
+    - frontend and backend in client folder
+        - npm run start:frontend
+        - npm run start:backend or nodemon server.js
+            - see package.json
+        - 
