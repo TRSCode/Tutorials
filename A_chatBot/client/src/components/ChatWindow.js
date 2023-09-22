@@ -1,8 +1,8 @@
 import React from 'react';
 import { ChatList } from './ChatList';
-import { InputSection } from './InputSection';
+import InputSection from './InputSection';
 
-export const ChatWindow = ({ currentTitle, currentChat, value, setValue, getMessages }) => {
+const ChatWindow = ({ currentTitle, currentChat, value, setValue, getMessages }) => {
     return (
         <section className="main">
             {!currentTitle && <h1>tonyGPT</h1>}
@@ -15,4 +15,6 @@ export const ChatWindow = ({ currentTitle, currentChat, value, setValue, getMess
         </section>
     );
 };
+
+export default ChatWindow;
 
