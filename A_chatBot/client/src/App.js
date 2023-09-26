@@ -1,7 +1,9 @@
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
+import Sidebar from './components/Sidebar';
+import Chat from './components/Chat';
 
 const App = () => {
-  const[value, setValue] = useState('')
+  const [value, setValue] = useState('')
   const [message, setMessage] = useState('')
   const [previousChats, setPreviousChats] = useState([])
   const [currentTitle, setCurrentTitle] = useState(null)
@@ -21,45 +23,45 @@ const App = () => {
   const getMessages = async (e) => {
     e.preventDefault()
     const options = {
-      method: "POST",
-      body: JSON.stringify({
-        message: value
-      }),
-      headers: {
-        "Content-Type": "application/json"
-      }
+        method: "POST",
+        body: JSON.stringify({
+            message: value
+        }),
+        headers: {
+            "Content-Type": "application/json"
+        }
     }
     try {
-      const response = await fetch('http://localhost:8000/completions', options)
-      const data = await response.json()
-      // console.log(data)
-      setMessage(data.choices[0].message)
+        const response = await fetch('http://localhost:8000/completions', options)
+        const data = await response.json()
+        // console.log(data)
+        setMessage(data.choices[0].message)
     } catch (error) {
-      console.error(error)
+        console.error(error)
     }
-    // setValue('');
+      // setValue('');
   }
   // console.log(message)
 
   useEffect(() => {
     console.log(currentTitle, value, message)
     if (!currentTitle && value && message) {
-      setCurrentTitle(value)
+        setCurrentTitle(value)
     }
     if (currentTitle && value && message) {
-      setPreviousChats(prevChats => (
-        [...prevChats, 
-          {
-            title: currentTitle,
-            role: 'user',
-            content: value
-          }, 
-          {
-            title: currentTitle,
-            role: message.role,
-            content: message.content
-          }]
-      ))
+        setPreviousChats(prevChats => (
+            [...prevChats,
+            {
+                title: currentTitle,
+                role: 'user',
+                content: value
+            },
+            {
+                title: currentTitle,
+                role: message.role,
+                content: message.content
+            }]
+        ))
     }
   }, [message, currentTitle])
 
@@ -71,234 +73,10 @@ const App = () => {
 
   return (
     <div className="app">
-      <section className="side-bar" >
-        <button onClick={createNewChat} >+ New chat</button>
-        <ul className="history" >
-          {uniqueTitles?.map((uniqueTitle, index) => <li key={index} onClick={() => handleClick(uniqueTitle)} >{uniqueTitle}</li>)}
-        </ul>
-        <nav>
-          <p>Made by Tony</p>
-        </nav>
-      </section>
-      <section className="main" >
-        {!currentTitle && <h1>tonyGPT</h1>}
-        <ul className="feed">
-          {currentChat?.map((chatMessage, index)=> 
-          <li key={index}>
-            <p className="role" >{chatMessage.role}</p>
-            <p>{chatMessage.content}</p>
-          </li>)}
-        </ul>
-        <div className="bottom-section">
-          <form onSubmit={getMessages} className="input-container"> {/* Added form element */}
-            <input value={value} onChange={(e) => setValue(e.target.value)} />
-            <div id="submit" onClick={getMessages}>➢</div>
-          </form> {/* Close form element */}
-          {/* <div className="input-container">
-            <input value={value} onChange={(e) => setValue(e.target.value)} />
-            <div id="submit" onClick={getMessages}>➢</div>
-          </div> */}
-          <p className="info">
-            Chat GPT Mar 14 Version.  Free Research Preview.
-            Our goal is to make AI systems more natural and safe to interact with.
-            Your feedback will help us improve.
-          </p>
-        </div>
-      </section>
+        <Sidebar uniqueTitles={uniqueTitles} createNewChat={createNewChat} handleClick={handleClick} />
+        <Chat currentChat={currentChat} value={value} getMessages={getMessages} setValue={setValue} />
     </div>
   );
 }
 
 export default App;
-
-// import React, { useState, useEffect } from 'react';
-// // import './App.css'; // Import your CSS
-// import './index.css'
-// import ChatWindow from './components/ChatWindow'; // Import ChatWindow component
-
-// const App = () => {
-//   const [value, setValue] = useState('');
-//   const [message, setMessage] = useState('');
-//   const [previousChats, setPreviousChats] = useState([]);
-//   const [currentTitle, setCurrentTitle] = useState(null);
-
-//   const createNewChat = () => {
-//     setMessage('');
-//     setValue('');
-//     setCurrentTitle(null);
-//   };
-
-//   const handleClick = (uniqueTitle) => {
-//     setCurrentTitle(uniqueTitle);
-//     setMessage('');
-//     setValue('');
-//   };
-
-//   const getMessages = async (e) => {
-//     e.preventDefault();
-//     const options = {
-//       method: "POST",
-//       body: JSON.stringify({
-//         message: value,
-//       }),
-//       headers: {
-//         "Content-Type": "application/json",
-//       },
-//     };
-//     try {
-//       const response = await fetch('http://localhost:8000/completions', options);
-//       const data = await response.json();
-//       setMessage(data.choices[0].text);  // Assuming 'text' is the key containing the message
-//     } catch (error) {
-//       console.error(error);
-//     }
-//   };
-
-//   useEffect(() => {
-//     if (!currentTitle && value && message) {
-//       setCurrentTitle(value);
-//     }
-//     if (currentTitle && value && message) {
-//       setPreviousChats((prevChats) => (
-//         [...prevChats, 
-//           {
-//             title: currentTitle,
-//             role: 'user',
-//             content: value
-//           }, 
-//           {
-//             title: currentTitle,
-//             role: 'bot',
-//             content: message
-//           }]
-//       ));
-//     }
-//   }, [message, currentTitle]);
-
-//   const currentChat = previousChats.filter((previousChat) => previousChat.title === currentTitle);
-//   const uniqueTitles = Array.from(new Set(previousChats.map((previousChat) => previousChat.title)));
-
-//   return (
-//     <div className="app">
-//       <section className="side-bar">
-//         <button onClick={createNewChat}>+ New chat</button>
-//         <ul className="history">
-//           {uniqueTitles?.map((uniqueTitle, index) => (
-//             <li key={index} onClick={() => handleClick(uniqueTitle)}>
-//               {uniqueTitle}
-//             </li>
-//           ))}
-//         </ul>
-//         <nav>
-//           <p>Made by Tony</p>
-//         </nav>
-//       </section>
-//       <ChatWindow
-//         currentTitle={currentTitle}
-//         currentChat={currentChat}
-//         value={value}
-//         setValue={setValue}
-//         getMessages={getMessages}
-//       />
-//     </div>
-//   );
-// };
-
-// export default App;
-
-
-
-// import React, { useState, useEffect } from 'react';
-// // import './App.css'; // Import your CSS
-// import './index.css'
-// import ChatWindow from './components/ChatWindow'; // Import ChatWindow component
-
-// const App = () => {
-//   const [value, setValue] = useState('');
-//   const [message, setMessage] = useState('');
-//   const [previousChats, setPreviousChats] = useState([]);
-//   const [currentTitle, setCurrentTitle] = useState(null);
-
-//   const createNewChat = () => {
-//     setMessage('');
-//     setValue('');
-//     setCurrentTitle(null);
-//   };
-
-//   const handleClick = (uniqueTitle) => {
-//     setCurrentTitle(uniqueTitle);
-//     setMessage('');
-//     setValue('');
-//   };
-
-//   const getMessages = async (e) => {
-//     e.preventDefault();
-//     const options = {
-//       method: "POST",
-//       body: JSON.stringify({
-//         message: value,
-//       }),
-//       headers: {
-//         "Content-Type": "application/json",
-//       },
-//     };
-//     try {
-//       const response = await fetch('http://localhost:8000/completions', options);
-//       const data = await response.json();
-//       setMessage(data.choices[0].text);  // Assuming 'text' is the key containing the message
-//     } catch (error) {
-//       console.error(error);
-//     }
-//   };
-
-//   useEffect(() => {
-//     if (!currentTitle && value && message) {
-//       setCurrentTitle(value);
-//     }
-//     if (currentTitle && value && message) {
-//       setPreviousChats((prevChats) => (
-//         [...prevChats, 
-//           {
-//             title: currentTitle,
-//             role: 'user',
-//             content: value
-//           }, 
-//           {
-//             title: currentTitle,
-//             role: 'bot',
-//             content: message
-//           }]
-//       ));
-//     }
-//   }, [message, currentTitle, value]);
-
-//   const currentChat = previousChats.filter((previousChat) => previousChat.title === currentTitle);
-//   const uniqueTitles = Array.from(new Set(previousChats.map((previousChat) => previousChat.title)));
-
-//   return (
-//     <div className="app">
-//       <section className="side-bar">
-//         <button onClick={createNewChat}>+ New chat</button>
-//         <ul className="history">
-//           {uniqueTitles?.map((uniqueTitle, index) => (
-//             <li key={index} onClick={() => handleClick(uniqueTitle)}>
-//               {uniqueTitle}
-//             </li>
-//           ))}
-//         </ul>
-//         <nav>
-//           <p>Made by Tony</p>
-//         </nav>
-//       </section>
-//       <ChatWindow
-//         currentTitle={currentTitle}
-//         currentChat={currentChat}
-//         value={value}
-//         setValue={setValue}
-//         getMessages={getMessages}
-//       />
-//     </div>
-//   );
-// };
-
-// export default App;
