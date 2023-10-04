@@ -26,4 +26,6 @@
         - npm run start:frontend
         - npm run start:backend or nodemon server.js
             - see package.json
-        - 
+
+- __fastAPI_platform_tutorial__ 
+    - using the tutorial from fastAPI docs
