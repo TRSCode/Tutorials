@@ -29,3 +29,5 @@
 
 - __fastAPI_platform_tutorial__ 
     - using the tutorial from fastAPI docs
+    - https://fastapi.tiangolo.com/tutorial/ 
+    - https://docs.pydantic.dev/latest/
