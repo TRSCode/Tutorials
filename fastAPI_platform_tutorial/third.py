@@ -41,7 +41,7 @@ async def root():
 #         results.update({"q": q})
 #     return results
 
-app = FastAPI()
+# app = FastAPI()
 
 
 # @app.get("/items/{item_id}")
