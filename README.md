@@ -31,3 +31,12 @@
     - using the tutorial from fastAPI docs
     - https://fastapi.tiangolo.com/tutorial/ 
     - https://docs.pydantic.dev/latest/
+    - 
+- __FastAPI_Complete_Course__
+    - source code for the FastAPI Complete Course on Udemy
+- __FastAPI__
+        - activate env fastapienv\Scripts\activate.bat
+        - pip install fastapi 
+        - pip install "uvicorn[standard]"
+        - pip list
+    - deactivate env: deactivate
