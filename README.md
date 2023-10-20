@@ -35,7 +35,7 @@
 - __FastAPI_Complete_Course__
     - source code for the FastAPI Complete Course on Udemy
 - __FastAPI__
-        - activate env fastapienv\Scripts\activate.bat
+    - activate env fastapienv\Scripts\activate.bat
         - pip install fastapi 
         - pip install "uvicorn[standard]"
         - pip list
