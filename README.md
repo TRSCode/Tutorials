@@ -40,3 +40,4 @@
         - pip install "uvicorn[standard]"
         - pip list
     - deactivate env: deactivate
+    
