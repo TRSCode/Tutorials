@@ -33,6 +33,7 @@
     - https://docs.pydantic.dev/latest/
     - 
 - __FastAPI_Complete_Course__
+    - https://www.udemy.com/course/fastapi-the-complete-course/learn/lecture/36882688?start=15#overview
     - source code for the FastAPI Complete Course on Udemy
 - __FastAPI__
     - activate env fastapienv\Scripts\activate.bat
