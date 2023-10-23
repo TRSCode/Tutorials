@@ -38,6 +38,7 @@ async def read_category_by_query(category: str):
 
 
 # Get all books from a specific author using path or query parameters
+# @app.get("/books/byauthor/{author}")  this will work as well using a path paramether vs a query parameter.  Order matters though!!
 @app.get("/books/byauthor/")
 async def read_books_by_author_path(author: str):
     books_to_return = []
