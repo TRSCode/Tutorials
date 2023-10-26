@@ -1,5 +1,5 @@
 from typing import Optional
-from fastapi import FastAPI, Body
+from fastapi import FastAPI, Body, Path
 from pydantic import BaseModel, Field
 
 # Pydantics is a python library for data validation, modeling, parsing, and serialization
@@ -60,7 +60,7 @@ async def read_all_books():
     return BOOKS
 
 @app.get("/books/{book_id}")
-async def read_book(book_id: int):
+async def read_book(book_id: int = Path(gt=0)):
     # book = list(filter(lambda x: x.id == book_id, BOOKS))
     #return book[0]
     for book in BOOKS:
@@ -106,7 +106,7 @@ async def update_book(book: BookRequest):
             BOOKS[i] = book
 
 @app.delete("/books/{book_id}")
-async def delete_book(book_id: int):
+async def delete_book(book_id: int = Path(gt=0)):
     for i in range(len(BOOKS)):
         if BOOKS[i].id == book_id:
             BOOKS.pop(i)
