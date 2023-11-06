@@ -1,4 +1,3 @@
-import stat
 from typing import Optional
 from fastapi import FastAPI, Body, Path, Query, HTTPException
 from pydantic import BaseModel, Field
@@ -25,7 +24,7 @@ class Book:
         self.published_date = published_date
 
 class BookRequest(BaseModel):
-    id: Optional[int] = Field(title='id is not needed')
+    id: Optional[int] = Field(default = None,title='id is not needed')
     title: str = Field(min_length=3)
     author: str = Field(min_length=1)
     description: str = Field(min_length=1, max_length=100)
@@ -108,7 +107,7 @@ async def update_book(book: BookRequest):
     for i in range(len(BOOKS)):
         if BOOKS[i].id == book.id:
             BOOKS[i] = book
-            boo_changed = True
+            book_changed = True
     if not book_changed:
         raise HTTPException(status_code=404, detail="Book not found")
         
