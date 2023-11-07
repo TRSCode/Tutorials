@@ -41,8 +41,8 @@
         - pip install "uvicorn[standard]"
         - pip list
     - deactivate env --> deactivate
-    - using sqlite3: 
-        - in terminal type: sqlite3 todos.db
+    - using sqlite3: (done initially to create the db, doesn't need to run all the time)
+        - in terminal type with venv running and cd into the correct folder: sqlite3 todos.db
         - .schema  will show the colums in the db
         - .help 
         - create
