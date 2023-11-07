@@ -41,4 +41,18 @@
         - pip install "uvicorn[standard]"
         - pip list
     - deactivate env --> deactivate
+    - using sqlite3: 
+        - in terminal type: sqlite3 todos.db
+        - .schema  will show the colums in the db
+        - .help 
+        - create
+            - insert into todos (title, description, priority, complete) values ('Go to the store', 'Pick up eggs', 5, False);
+            - insert into todos (title, description, priority, complete) values ('Cut the lawn', 'Grass is getting long', 3, False);
+            - insert into todos (title, description, priority, complete) values ('Feed the dog', 'He is getting hungry', 5, False);
+            - insert into todos (title, description, priority, complete) values ('Test element', 'Pick up eggs', 5, False);
+        - read all
+            - select * from todos;
+        - change view with .mode column/markdown/box/table etc
+        - delete
+            - delete from todos where id = 4;
     
