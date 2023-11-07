@@ -1,0 +1,6 @@
+{
+    "title": "Sample Todo",
+    "description": "This is a sample todo description",
+    "priority": 3,
+    "complete": false
+}
