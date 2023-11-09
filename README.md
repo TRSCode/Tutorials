@@ -55,4 +55,5 @@
         - change view with .mode column/markdown/box/table etc
         - delete
             - delete from todos where id = 4;
+    - bcrypt --> pip install "passLib[bcrypt]"
     

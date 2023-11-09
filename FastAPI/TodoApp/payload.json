@@ -4,3 +4,12 @@
     "priority": 3,
     "complete": false
 }
+
+{
+    "username": "codingwithroby",
+    "email": "codingwithroby@email.com",
+    "first_name": "Eric",
+    "last_name": "Roby",
+    "password": "test1234",
+    "role": "admin"
+   }
