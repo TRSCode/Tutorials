@@ -56,4 +56,7 @@
         - delete
             - delete from todos where id = 4;
     - bcrypt --> pip install "passLib[bcrypt]"
-    
+    - python multipart --> pip install python-multipart
+    - for jwt --> pip install "python-jose[cryptography]" 
+    - Create SECRET_KEY: to print a random list of characters, don't run in venv --> openssl rand -hex 32
+    - Test token --> https://jwt.io
