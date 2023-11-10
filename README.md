@@ -60,3 +60,6 @@
     - for jwt --> pip install "python-jose[cryptography]" 
     - Create SECRET_KEY: to print a random list of characters, don't run in venv --> openssl rand -hex 32
     - Test token --> https://jwt.io
+    - __PostgreSQL__ https://www.postgresql.org/   
+        - launch gui with pgAdmin 4
+        - in venv --> pip install psycopg2-binary
