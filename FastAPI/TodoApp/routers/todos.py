@@ -6,6 +6,8 @@ from models import Todos
 from database import SessionLocal
 from starlette import status
 from .auth import get_current_user
+from fastapi.responses import HTMLResponse
+from fastapi.templating import Jinja2Templates
 
 router = APIRouter()
 

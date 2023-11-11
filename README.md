@@ -72,3 +72,6 @@
             - alembic revision -m <message>  **creates a new revision (write scripts - creates file and ID)
             - alembic upgrade <revision #>   **run our upgrade migration to our database which will be a function inside revision file
             - alembic downgrade -1    **run our downgrade migration to our database
+    - project 4
+        - in venv --> pip install aiofiles
+        - --> pip install jinja2
