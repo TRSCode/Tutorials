@@ -41,7 +41,7 @@
         - pip install "uvicorn[standard]"
         - pip list
     - deactivate env --> deactivate
-    - using sqlite3: (done initially to create the db, doesn't need to run all the time)
+    - using __sqlite3__: (done initially to create the db, doesn't need to run all the time)
         - in terminal type with venv running and cd into the correct folder: sqlite3 todos.db
         - .schema  will show the colums in the db
         - .help 
@@ -63,3 +63,12 @@
     - __PostgreSQL__ https://www.postgresql.org/   
         - launch gui with pgAdmin 4
         - in venv --> pip install psycopg2-binary
+    - __MySQL__
+        - in venv --> pip install pymysql
+    - __Alembic__ is a database migration tool for when using SQLAlchemy
+        - pip install alembic
+        - initialize alembic project which will create two new files (alembic.ini and alembic directory)
+            - alembic init <folder name>  **creates new venv for alembic
+            - alembic revision -m <message>  **creates a new revision (write scripts - creates file and ID)
+            - alembic upgrade <revision #>   **run our upgrade migration to our database which will be a function inside revision file
+            - alembic downgrade -1    **run our downgrade migration to our database
