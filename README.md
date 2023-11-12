@@ -15,6 +15,11 @@
     - ***npm run dev***
     - this is a front-end only chatBot (less secure even with .env)
     
+- __Django Demo Seriews (Coding Dojo)
+    - zoom: https://codingdojo.zoom.us/j/99721516229
+    - video: 
+    - 
+    
 - __fullstack_chatBot__ (v3)
     - https://www.youtube.com/watch?v=OJ7AgZVH118&list=PLOvIwkWvHysNRNjLPcHHAWXrLzRkl__kR&index=4
     - https://github.com/EBEREGIT/react-nodejs-chatgpt-tutorial
