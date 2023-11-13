@@ -41,6 +41,7 @@
     - https://www.udemy.com/course/fastapi-the-complete-course/learn/lecture/36882688?start=15#overview
     - source code for the FastAPI Complete Course on Udemy
 - __FastAPI__
+    - python -m venv <file_name>
     - activate env --> fastapienv\Scripts\activate.bat
         - pip install fastapi 
         - pip install "uvicorn[standard]"
