@@ -40,7 +40,11 @@ class Todo(BaseModel):
 
 @router.get("/test")
 async def test(request: Request):
-    return templates.TemplateResponse("home.html", {"request": request})
+    # return templates.TemplateResponse("home.html", {"request": request})
+    # return templates.TemplateResponse("add-todo.html", {"request": request})
+    # return templates.TemplateResponse("edit-todo.html", {"request": request})
+    # return templates.TemplateResponse("login.html", {"request": request})
+    return templates.TemplateResponse("register.html", {"request": request})
 
 @router.get("/")
 async def read_all(db: Session = Depends(get_db)):
