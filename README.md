@@ -81,3 +81,6 @@
     - project 4
         - in venv --> pip install aiofiles
         - --> pip install jinja2
+        - create requirements file
+            - navigate to appropriate project folder
+            - in terminal --> pip3 freeze > requirements.text
