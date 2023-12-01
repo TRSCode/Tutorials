@@ -84,3 +84,6 @@
         - create requirements file
             - navigate to appropriate project folder
             - in terminal --> pip3 freeze > requirements.text
+        - Deployment:
+            - Render
+            - ElephantSQL (using postgresql)
