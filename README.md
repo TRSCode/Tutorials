@@ -37,7 +37,7 @@
     - https://fastapi.tiangolo.com/tutorial/ 
     - https://docs.pydantic.dev/latest/
     - 
-- __FastAPI_Complete_Course__
+- __FastAPI_Complete_Course__ FastAPI, SQLalchemy, SQLite, Alembic, Python, Bootstrap, venv, MySQL, PostgresQL, ElephantQL, Render
     - https://www.udemy.com/course/fastapi-the-complete-course/learn/lecture/36882688?start=15#overview
     - source code for the FastAPI Complete Course on Udemy: https://github.com/codingwithroby/FastAPI-The-Complete-Course/tree/main
 - __FastAPI__
