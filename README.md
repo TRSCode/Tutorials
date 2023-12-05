@@ -13,16 +13,16 @@
 ## Tutorial Code Along and Other Training <a name="tutorial-code-along-and-other-training"></a>
 
 - ### v3 to v4 Migration Guide <a name="v3-to-v4-migration-guide"></a>
-[Back to Table of Contents](#table-of-contents)
+- [Back to Table of Contents](#table-of-contents)
     - https://github.com/openai/openai-node/discussions/217
 
 - ### chatBot: chatGPT chatbot with React & OpenAI (v3) <a name="chatbot-chatgpt-chatbot-with-react--openai-v3"></a>
-[Back to Table of Contents](#table-of-contents)
+- [Back to Table of Contents](#table-of-contents)
     - https://www.youtube.com/watch?v=rZWikA35I3I
     - react bootstrap
     
 - ### app: chatGPT chatBot#2 called "app" (v4) <a name="app-chatgpt-chatbot2-called-app-v4"></a>
-[Back to Table of Contents](#table-of-contents)
+- [Back to Table of Contents](#table-of-contents)
     - https://www.youtube.com/watch?v=Lag9Pj_33hM
     - https://github.com/coopercodes/ReactChatGPTChatbot
     - npm create vite@latest app -- --template react
@@ -31,19 +31,19 @@
     - this is a front-end only chatBot (less secure even with .env)
     
 - ### Django Demo Series (Coding Dojo) <a name="django-demo-series-coding-dojo"></a>
-[Back to Table of Contents](#table-of-contents)
+- [Back to Table of Contents](#table-of-contents)
     - zoom: https://codingdojo.zoom.us/j/99721516229
     - video: 
     - 
 
 - ### fullstack_chatBot (v3) <a name="fullstack_chatbot-v3"></a>
-[Back to Table of Contents](#table-of-contents)
+- [Back to Table of Contents](#table-of-contents)
     - https://www.youtube.com/watch?v=OJ7AgZVH118&list=PLOvIwkWvHysNRNjLPcHHAWXrLzRkl__kR&index=4
     - https://github.com/EBEREGIT/react-nodejs-chatgpt-tutorial
     - React/Node.js/Vite
 
 - ### A_chatBot (v4) <a name="a_chatbot-v4"></a>
-[Back to Table of Contents](#table-of-contents)
+- [Back to Table of Contents](#table-of-contents)
     - https://www.youtube.com/watch?v=JJ9fkYX7q4A
     - frontend and backend in client folder
         - npm run start:frontend
@@ -51,20 +51,20 @@
             - see package.json
 
 - ### fastAPI_platform_tutorial <a name="fastapi_platform_tutorial"></a>
-[Back to Table of Contents](#table-of-contents)
+- [Back to Table of Contents](#table-of-contents)
     - using the tutorial from fastAPI docs
     - https://fastapi.tiangolo.com/tutorial/ 
     - https://docs.pydantic.dev/latest/
     - 
 
 - ### FastAPI Complete Course <a name="fastapi_complete_course"></a>
-[Back to Table of Contents](#table-of-contents)
+- [Back to Table of Contents](#table-of-contents)
     - FastAPI, SQLalchemy, SQLite, Alembic, Python, Bootstrap, venv, MySQL, PostgresQL, ElephantQL, Render
     - https://www.udemy.com/course/fastapi-the-complete-course/learn/lecture/36882688?start=15#overview
     - source code for the FastAPI Complete Course on Udemy: https://github.com/codingwithroby/FastAPI-The-Complete-Course/tree/main
 
 - ### FastAPI <a name="fastapi"></a>
-[Back to Table of Contents](#table-of-contents)
+- [Back to Table of Contents](#table-of-contents)
     - python -m venv <file_name>
     - activate env --> fastapienv\Scripts\activate.bat
         - pip install fastapi 
