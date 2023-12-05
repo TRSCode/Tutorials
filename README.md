@@ -1,46 +1,61 @@
-## Tutorial Code Along and Other Training
+# Table of Contents
+1. [Tutorial Code Along and Other Training](#tutorial-code-along-and-other-training)
+    - [v3 to v4 Migration Guide](#v3-to-v4-migration-guide)
+    - [chatBot: chatGPT chatbot with React & OpenAI (v3)](#chatbot-chatgpt-chatbot-with-react--openai-v3)
+    - [app: chatGPT chatBot#2 called "app" (v4)](#app-chatgpt-chatbot2-called-app-v4)
+    - [Django Demo Series (Coding Dojo)](#django-demo-series-coding-dojo)
+    - [fullstack_chatBot (v3)](#fullstack_chatbot-v3)
+    - [A_chatBot (v4)](#a_chatbot-v4)
+    - [fastAPI_platform_tutorial](#fastapi_platform_tutorial)
+    - [FastAPI Complete Course](#fastapi_complete_course)
+    - [FastAPI](#fastapi)
 
-- v3 to v4 Migration Guide
+## Tutorial Code Along and Other Training <a name="tutorial-code-along-and-other-training"></a>
+
+- ### v3 to v4 Migration Guide <a name="v3-to-v4-migration-guide"></a>
     - https://github.com/openai/openai-node/discussions/217
 
-- __chatBot__: chatGPT chatbot with React & OpenAI (v3)
+- ### chatBot: chatGPT chatbot with React & OpenAI (v3) <a name="chatbot-chatgpt-chatbot-with-react--openai-v3"></a>
     - https://www.youtube.com/watch?v=rZWikA35I3I
     - react bootstrap
     
-- ** __app__ : chatGPT chatBot#2 called "app" ***(v4)***
+- ### app: chatGPT chatBot#2 called "app" (v4) <a name="app-chatgpt-chatbot2-called-app-v4"></a>
     - https://www.youtube.com/watch?v=Lag9Pj_33hM
     - https://github.com/coopercodes/ReactChatGPTChatbot
-    - npm create vite@latest app -- --template reacty
+    - npm create vite@latest app -- --template react
     - npm install @chatscope/chat-ui-kit-react
-    - ***npm run dev***
+    - npm run dev
     - this is a front-end only chatBot (less secure even with .env)
     
-- __Django Demo Seriews (Coding Dojo)
+- ### Django Demo Series (Coding Dojo) <a name="django-demo-series-coding-dojo"></a>
     - zoom: https://codingdojo.zoom.us/j/99721516229
     - video: 
     - 
-    
-- __fullstack_chatBot__ (v3)
+
+- ### fullstack_chatBot (v3) <a name="fullstack_chatbot-v3"></a>
     - https://www.youtube.com/watch?v=OJ7AgZVH118&list=PLOvIwkWvHysNRNjLPcHHAWXrLzRkl__kR&index=4
     - https://github.com/EBEREGIT/react-nodejs-chatgpt-tutorial
     - React/Node.js/Vite
 
-- __A_chatBot__ ***(v4)***
+- ### A_chatBot (v4) <a name="a_chatbot-v4"></a>
     - https://www.youtube.com/watch?v=JJ9fkYX7q4A
     - frontend and backend in client folder
         - npm run start:frontend
         - npm run start:backend or nodemon server.js
             - see package.json
 
-- __fastAPI_platform_tutorial__ 
+- ### fastAPI_platform_tutorial <a name="fastapi_platform_tutorial"></a>
     - using the tutorial from fastAPI docs
     - https://fastapi.tiangolo.com/tutorial/ 
     - https://docs.pydantic.dev/latest/
     - 
-- __FastAPI_Complete_Course__ FastAPI, SQLalchemy, SQLite, Alembic, Python, Bootstrap, venv, MySQL, PostgresQL, ElephantQL, Render
+
+- ### FastAPI Complete Course <a name="fastapi_complete_course"></a>
+    - FastAPI, SQLalchemy, SQLite, Alembic, Python, Bootstrap, venv, MySQL, PostgresQL, ElephantQL, Render
     - https://www.udemy.com/course/fastapi-the-complete-course/learn/lecture/36882688?start=15#overview
     - source code for the FastAPI Complete Course on Udemy: https://github.com/codingwithroby/FastAPI-The-Complete-Course/tree/main
-- __FastAPI__
+
+- ### FastAPI <a name="fastapi"></a>
     - python -m venv <file_name>
     - activate env --> fastapienv\Scripts\activate.bat
         - pip install fastapi 
@@ -49,7 +64,7 @@
     - deactivate env --> deactivate
     - using __sqlite3__: (done initially to create the db, doesn't need to run all the time)
         - in terminal type with venv running and cd into the correct folder: sqlite3 todos.db
-        - .schema  will show the colums in the db
+        - .schema  will show the columns in the db
         - .help 
         - create
             - insert into todos (title, description, priority, complete) values ('Go to the store', 'Pick up eggs', 5, False);
