@@ -9,7 +9,7 @@
     - [fastAPI_platform_tutorial](#fastapi_platform_tutorial)
     - [FastAPI Complete Course](#fastapi_complete_course)
     - [FastAPI](#fastapi)
-    - [Rachel](#rachel)
+    - [RachelChat](#rachel)
 
 ## Tutorial Code Along and Other Training <a name="tutorial-code-along-and-other-training"></a>
 
@@ -114,7 +114,7 @@
             - ElephantSQL (using postgresql)
     
 
-- ### Rachel <a name="rachel"></a>
+- ### RachelChat <a name="rachel"></a>
 - [Back to Table of Contents](#table-of-contents)
     - https://www.udemy.com/course/chatgpt-ai-voice-chatbot-build-with-react-and-fast-api-combo/learn/lecture/36950450?start=0#overview
     - React/FastAPI/openAI/ElevenLabs Udemy course to create voice ai chatbot
