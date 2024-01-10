@@ -118,3 +118,12 @@
 - [Back to Table of Contents](#table-of-contents)
     - https://www.udemy.com/course/chatgpt-ai-voice-chatbot-build-with-react-and-fast-api-combo/learn/lecture/36950450?start=0#overview
     - React/FastAPI/openAI/ElevenLabs Udemy course to create voice ai chatbot
+    - Frontend set-up
+        - yarn create vite .
+        - ensure have correnct dependencies as listed in provided package.json, in terminal  --> yarn --exact
+        - run frontend to see if installed --> yarn dev
+        - set-up tailwind (already installed with dependencies) --> npx tailwindcss init -p
+    - 
+    - Backend
+    - 
+    - Currently on lesson 33, unable to run yarn build and start due to errors in tsconfig
