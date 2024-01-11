@@ -117,8 +117,8 @@
 - ### RachelChat <a name="rachel"></a>
 - [Back to Table of Contents](#table-of-contents)
     - https://www.udemy.com/course/chatgpt-ai-voice-chatbot-build-with-react-and-fast-api-combo/learn/lecture/36950450?start=0#overview
-    - React/FastAPI/openAI/ElevenLabs Udemy course to create voice ai chatbot
-    - Frontend set-up
+    - React/FastAPI/openAI/ElevenLabs (trscod) Udemy course to create voice ai chatbot
+    - Frontend set-up (see discord for source code)
         - yarn create vite .
         - ensure have correnct dependencies as listed in provided package.json, in terminal  --> yarn --exact
         - run frontend to see if installed --> yarn dev
