@@ -126,4 +126,4 @@
     - 
     - Backend
     - 
-    - Currently on lesson 33, unable to run yarn build and start due to errors in tsconfig
+    - Currently @4:41 of lesson 40
