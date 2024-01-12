@@ -9,7 +9,7 @@ from decouple import config
 import openai
 
 # Custom Function Imports
-# ...
+from functions.openai_requests import convert_audio_to_text, get_chat_response
 
 
 # Initiate App
@@ -39,6 +39,27 @@ app.add_middleware(
 @app.get("/health")
 async def check_health():
     return {"message": "Healthy"}
+
+# Get audio
+@app.get("/post-audio-get/")
+async def get_audio():
+
+    # Get saved audio
+    audio_input = open("voice.mp3", "rb")
+
+    # Decode Audio
+    message_decoded = convert_audio_to_text(audio_input)
+
+    # Guard: Ensure message decoded
+    if not message_decoded:
+        raise HTTPException(status_code=400, detail="Failed to decode audio")
+    
+    # Get ChatGPT Response
+    chat_response = get_chat_response(message_decoded)
+
+    print(chat_response)
+
+    return "Done"
 
 
 # # Post bot response
