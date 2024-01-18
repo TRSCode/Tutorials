@@ -134,3 +134,4 @@
 - [Back to Table of Contents](#table-of-contents)
     - using the tutorial from NextJS docs
     - https://nextjs.org/learn
+    - https://vercel.com/
