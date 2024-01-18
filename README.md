@@ -10,7 +10,7 @@
     - [FastAPI Complete Course](#fastapi_complete_course)
     - [FastAPI](#fastapi)
     - [RachelChat](#rachel)
-    - [NextJS](#nextjs_platform_tutorial)
+    - [NextJS "NextJS Dasshboard" ](#nextjs_platform_tutorial)
 
 ## Tutorial Code Along and Other Training <a name="tutorial-code-along-and-other-training"></a>
 
@@ -130,7 +130,7 @@
     - Currently @4:41 of lesson 40
 
 
-- ### NextJS_platform_tutorial <a name="nextjs_platform_tutorial"></a>
+- ### NextJS_platform_tutorial "NextJS Dasshboard" <a name="nextjs_platform_tutorial"></a>
 - [Back to Table of Contents](#table-of-contents)
     - using the tutorial from NextJS docs
     - https://nextjs.org/learn
