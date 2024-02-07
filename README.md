@@ -11,6 +11,7 @@
     - [FastAPI](#fastapi)
     - [RachelChat](#rachel)
     - [NextJS "NextJS Dasshboard" ](#nextjs_platform_tutorial)
+    - [nextJS_Two "nextJS_two" ](#nextjs_two)
 
 ## Tutorial Code Along and Other Training <a name="tutorial-code-along-and-other-training"></a>
 
@@ -134,4 +135,10 @@
 - [Back to Table of Contents](#table-of-contents)
     - using the tutorial from NextJS docs
     - https://nextjs.org/learn
-    - https://vercel.com/
+    - https://vercel.com/ chapter 1 complete
+    
+
+- ### nextJS_two "nextJS_two" <a name="nextjs_two"></a>
+- [Back to Table of Contents](#table-of-contents)
+    - YouTube tutorial
+    - https://www.youtube.com/watch?v=ZVnjOPwW4ZA
