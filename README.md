@@ -142,3 +142,4 @@
 - [Back to Table of Contents](#table-of-contents)
     - YouTube tutorial
     - https://www.youtube.com/watch?v=ZVnjOPwW4ZA
+    - npm run dev
