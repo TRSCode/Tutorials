@@ -12,6 +12,7 @@
     - [RachelChat](#rachel)
     - [NextJS "NextJS Dasshboard" ](#nextjs_platform_tutorial)
     - [nextJS_Two "nextJS_two" ](#nextjs_two)
+    - [nextjs_openai "nextjs_openai" ](#nextjs_openai)
 
 ## Tutorial Code Along and Other Training <a name="tutorial-code-along-and-other-training"></a>
 
@@ -143,3 +144,10 @@
     - YouTube tutorial
     - https://www.youtube.com/watch?v=ZVnjOPwW4ZA
     - npm run dev
+
+
+- ### NextJS_OpenAI "nextjs_openai" <a name="nextjs_openai"></a>
+- [Back to Table of Contents](#table-of-contents)
+    - Udemy Course
+    - Udemy: https://www.udemy.com/course/nextjs-open-ai/learn/lecture/41422670#overview
+    - GitHub: https://github.com/john-smilga/nextjs-course-openai
