@@ -151,3 +151,7 @@
     - Udemy Course
     - Udemy: https://www.udemy.com/course/nextjs-open-ai/learn/lecture/41422670#overview
     - GitHub: https://github.com/john-smilga/nextjs-course-openai
+    - Demo Vercel: https://nextjs-tutorial-production.vercel.app/
+    - Tailwindcss: https://v2.tailwindcss.com/docs
+    - DaisyUI: https://daisyui.com/
+    - Through lesson 20
