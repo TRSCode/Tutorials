@@ -148,7 +148,7 @@
 
 - ### NextJS_OpenAI "nextjs_openai" <a name="nextjs_openai"></a>
 - [Back to Table of Contents](#table-of-contents)
-    - Udemy Course
+    - Udemy Course (nextjs-tutorial, gptgenius, jobify)
     - Udemy: https://www.udemy.com/course/nextjs-open-ai/learn/lecture/41422670#overview
     - GitHub: https://github.com/john-smilga/nextjs-course-openai
     - Demo Vercel: https://nextjs-tutorial-production.vercel.app/
