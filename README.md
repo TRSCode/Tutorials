@@ -154,4 +154,5 @@
     - Demo Vercel: https://nextjs-tutorial-production.vercel.app/
     - Tailwindcss: https://v2.tailwindcss.com/docs
     - DaisyUI: https://daisyui.com/
-    - Through lesson 20
+    - Prisma: npx prisma studio
+    - Through lesson 30
