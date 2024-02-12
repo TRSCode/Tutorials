@@ -155,4 +155,4 @@
     - Tailwindcss: https://v2.tailwindcss.com/docs
     - DaisyUI: https://daisyui.com/
     - Prisma: npx prisma studio
-    - Through lesson 30
+    - Through lesson 31
