@@ -154,5 +154,6 @@
     - Demo Vercel: https://nextjs-tutorial-production.vercel.app/
     - Tailwindcss: https://v2.tailwindcss.com/docs
     - DaisyUI: https://daisyui.com/
+    - Prisma DB migration/update: npx prisma migrate dev
     - Prisma: npx prisma studio
-    - Through lesson 31
+    - Through lesson 35
