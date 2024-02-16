@@ -156,4 +156,4 @@
     - DaisyUI: https://daisyui.com/
     - Prisma DB migration/update: npx prisma migrate dev
     - Prisma: npx prisma studio
-    - Through lesson 35
+    - At lesson 39 @2:29
