@@ -23,6 +23,7 @@ export const createTask = async (formData) => {
 };
 
 export const createTaskCustom = async (formData) => {
+    await new Promise((resolve) => setTimeout(resolve, 2000));
     const content = formData.get('content');
     // console.log(content);
     await prisma.task.create({
