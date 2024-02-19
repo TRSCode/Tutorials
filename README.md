@@ -155,12 +155,14 @@
     - Tailwindcss: https://v2.tailwindcss.com/docs
     - DaisyUI: https://daisyui.com/
     - Prisma DB migration/update: npx prisma migrate dev
+    - Prisma DB PUSH: npx prisma db push
+    - Prisma Run: npx prisma studio
     - Prisma: npx prisma studio
     - Zod (typescript declaration and validation library): https://zod.dev
     - Beautiful Toasts: https://react-hot-toast.com
-    - server actions replaced route handlers, but still may be usefull which allow the creation of serverless functions with less set up.
+    - server actions replaced route handlers, but still may be usefull which allow the creation of serverless functions with less set up. Like Postman in vs code.
         - Thunder Client (a VS Code extension): 
     - Middleware: 
         - https://nextjs.org/docs/app/building-your-application/routing/middleware
-        - 
-    - completed through lesson 42
+    - database web provider Render: https://dashboard.render.com/
+    - completed through lesson 47

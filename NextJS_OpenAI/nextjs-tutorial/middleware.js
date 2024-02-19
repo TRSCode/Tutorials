@@ -15,5 +15,6 @@ export function middleware(request) {
 }
 
 export const config = {
+    // a list of matchers or a single matcher
     matcher:['/about/:path*'],
 }
