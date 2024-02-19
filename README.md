@@ -156,4 +156,6 @@
     - DaisyUI: https://daisyui.com/
     - Prisma DB migration/update: npx prisma migrate dev
     - Prisma: npx prisma studio
-    - completed through lesson 40
+    - Zod (typescript declaration and validation library): https://zod.dev
+    - Beautiful Toasts: https://react-hot-toast.com
+    - completed through lesson 42
