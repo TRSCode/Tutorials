@@ -165,4 +165,5 @@
     - Middleware: 
         - https://nextjs.org/docs/app/building-your-application/routing/middleware
     - database web provider Render: https://dashboard.render.com/
+    - Deploy on vercel: https://vercel.com/
     - completed through lesson 47
