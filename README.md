@@ -158,4 +158,6 @@
     - Prisma: npx prisma studio
     - Zod (typescript declaration and validation library): https://zod.dev
     - Beautiful Toasts: https://react-hot-toast.com
+    - server actions replaced route handlers, but still may be usefull which allow the creation of serverless functions with less set up.
+        - Thunder Client (a VS Code extension): 
     - completed through lesson 42
