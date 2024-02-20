@@ -150,7 +150,8 @@
 - [Back to Table of Contents](#table-of-contents)
     - Udemy Course (nextjs-tutorial, gptgenius, jobify)
     - Udemy: https://www.udemy.com/course/nextjs-open-ai/learn/lecture/41422670#overview
-    - GitHub: https://github.com/john-smilga/nextjs-course-openai
+    - GitHub: https://www.udemy.com/course/nextjs-open-ai/learn/lecture/41422670#overview
+    - ***nextjs-tutorial***
     - Demo Vercel: https://nextjs-tutorial-production.vercel.app/
     - Tailwindcss: https://v2.tailwindcss.com/docs
     - DaisyUI: https://daisyui.com/
@@ -166,4 +167,6 @@
         - https://nextjs.org/docs/app/building-your-application/routing/middleware
     - database web provider Render: https://dashboard.render.com/
     - Deploy on vercel: https://vercel.com/
-    - completed through lesson 47
+    - ***gptGenius***
+    - 
+    - completed through lesson 52
