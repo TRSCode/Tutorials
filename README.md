@@ -168,5 +168,9 @@
     - database web provider Render: https://dashboard.render.com/
     - Deploy on vercel: https://vercel.com/
     - ***gptGenius***
+    - Clerk user authentication: https://clerk.com
+        - Clerk docs for Next.JS: https://clerk.com/docs/quickstarts/nextjs
+    - React-Icons: https://react-icons.github.io/react-icons/
+    - DaisyUI component drawer: https://daisyui.com/components/drawer/
     - 
-    - completed through lesson 52
+    - completed through lesson 61
