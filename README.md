@@ -149,8 +149,8 @@
 - ### NextJS_OpenAI "nextjs_openai" <a name="nextjs_openai"></a>
 - [Back to Table of Contents](#table-of-contents)
     - Udemy Course (nextjs-tutorial, gptgenius, jobify)
-    - Udemy: https://www.udemy.com/course/nextjs-open-ai/learn/lecture/41422670#overview
-    - GitHub: https://www.udemy.com/course/nextjs-open-ai/learn/lecture/41422670#overview
+    - Udemy: https://www.udemy.com/course/nextjs-open-ai/learn/lecture/40903536#overview
+    - GitHub: https://github.com/john-smilga/nextjs-course-openai
     - ***nextjs-tutorial***
     - Demo Vercel: https://nextjs-tutorial-production.vercel.app/
     - Tailwindcss: https://v2.tailwindcss.com/docs
@@ -173,4 +173,4 @@
     - React-Icons: https://react-icons.github.io/react-icons/
     - DaisyUI component drawer: https://daisyui.com/components/drawer/
     - 
-    - completed through lesson 63
+    - completed through lesson 64
