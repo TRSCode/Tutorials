@@ -160,7 +160,7 @@
     - Prisma Run: npx prisma studio
     - Prisma: npx prisma studio
     - Zod (typescript declaration and validation library): https://zod.dev
-    - Beautiful Toasts: https://react-hot-toast.com
+    - Beautiful Toasts (provides notififactions neatly): https://react-hot-toast.com
     - server actions replaced route handlers, but still may be usefull which allow the creation of serverless functions with less set up. Like Postman in vs code.
         - Thunder Client (a VS Code extension): 
     - Middleware: 
@@ -173,4 +173,4 @@
     - React-Icons: https://react-icons.github.io/react-icons/
     - DaisyUI component drawer: https://daisyui.com/components/drawer/
     - 
-    - completed through lesson 66
+    - completed through lesson 67
