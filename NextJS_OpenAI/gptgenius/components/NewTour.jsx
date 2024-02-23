@@ -1,7 +1,7 @@
 'use client'
 import { useMutation, useQueryClient } from '@tanstack/react-query';
 import { getExistingTour, generateTourResponse, createNewTour } from '@/utils/action';
-import TourInfo from "./TourInfo"
+import TourInfo from '@/components/TourInfo';
 import toast from 'react-hot-toast'
 
 const NewTour = () => {
