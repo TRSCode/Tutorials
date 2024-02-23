@@ -173,4 +173,4 @@
     - React-Icons: https://react-icons.github.io/react-icons/
     - DaisyUI component drawer: https://daisyui.com/components/drawer/
     - 
-    - completed through lesson 78
+    - completed through lesson 80
