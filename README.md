@@ -172,5 +172,6 @@
         - Clerk docs for Next.JS: https://clerk.com/docs/quickstarts/nextjs
     - React-Icons: https://react-icons.github.io/react-icons/
     - DaisyUI component drawer: https://daisyui.com/components/drawer/
+    - PlanetScale: https://app.planetscale.com/
     - 
-    - completed through lesson 80
+    - completed through lesson 86
