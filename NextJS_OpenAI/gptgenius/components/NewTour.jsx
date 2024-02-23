@@ -5,20 +5,25 @@ import TourInfo from '@/components/TourInfo';
 import toast from 'react-hot-toast'
 
 const NewTour = () => {
-
+    const queryClient = useQueryClient()
     const {
         mutate,
         isPending,
         data:tour,
     } = useMutation({
-        mutationFn:async (destination) => {
-            const newTour = await generateTourResponse(destination)
-            if(newTour){
-                return newTour
+        // there are multiple functions in the mutation below to create client-side actions to avoid exceeding 10 seconds on the server side where Vercel would time out the request
+        mutationFn: async (destination) => {
+            const existingTour = await getExistingTour(destination);
+            if (existingTour) return existingTour;
+            const newTour = await generateTourResponse(destination);
+            if (newTour) {
+                await createNewTour(newTour);
+                queryClient.invalidateQueries({ queryKey: ['tours'] });
+                return newTour;
             }
-            toast.error('No matching city found...')
-            return null
-        }
+            toast.error('No matching city found...');
+            return null;
+        },
     })
     const handleSubmit = (e) => {
         e.preventDefault();

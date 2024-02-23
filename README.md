@@ -174,4 +174,4 @@
     - DaisyUI component drawer: https://daisyui.com/components/drawer/
     - PlanetScale: https://app.planetscale.com/
     - 
-    - completed through lesson 86
+    - completed through lesson 92
