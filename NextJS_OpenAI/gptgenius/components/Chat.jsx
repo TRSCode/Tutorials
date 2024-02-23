@@ -2,7 +2,6 @@
 
 import { generateChatResponse } from "@/utils/action"
 import { useMutation } from "@tanstack/react-query"
-import { Content } from "next/font/google"
 import { useState } from "react"
 import toast from 'react-hot-toast'
 
@@ -59,7 +58,6 @@ const Chat = () => {
                     />
                     <button className="btn btn-primary join-item" type="submit" disabled={isPending}>
                         {isPending ? 'asking...' : 'ask question'}
-                        ask question
                     </button>
                 </div>
             </form>
