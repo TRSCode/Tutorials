@@ -3,6 +3,8 @@ import { redirect } from "next/navigation"
 import Link from "next/link"
 import Image from "next/image"
 import TourInfo from "@/components/TourInfo"
+import axios from "axios"
+const url = `https://api.unsplash.com/search/photos?client_id=${process.env.UNSPLASH_API_KEY}&query=`;
 
 const SingleTourPage = async ({ params }) => {
     const tour = await getSingleTour(params.id)
@@ -10,11 +12,14 @@ const SingleTourPage = async ({ params }) => {
     if(!tour) {
     redirect('/tours');
     }
+
+    const { data } = await axios.get(`${url}${tour.city}`);
+    const tourImage = data?.results[0]?.urls?.raw;
     
-    const tourImage = await generateTourImage({
-        city: tour.city,
-        country: tour.country,
-    });
+    // const tourImage = await generateTourImage({
+    //     city: tour.city,
+    //     country: tour.country,
+    // });
 
     return (
         <div>

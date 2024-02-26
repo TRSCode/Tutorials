@@ -173,5 +173,7 @@
     - React-Icons: https://react-icons.github.io/react-icons/
     - DaisyUI component drawer: https://daisyui.com/components/drawer/
     - PlanetScale: https://app.planetscale.com/
+    - Unsplash images: https://unsplash.com/
+    - axios needed for unsplash api: npm i axios
     - 
-    - completed through lesson 92
+    - completed through lesson 95
