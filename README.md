@@ -175,5 +175,6 @@
     - PlanetScale: https://app.planetscale.com/
     - Unsplash images: https://unsplash.com/
     - axios needed for unsplash api: npm i axios
+    - Prisma Schema upate: dont for get to push the schema update: npx prisma db push
     - 
-    - completed through lesson 95
+    - completed through lesson 100
