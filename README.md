@@ -176,5 +176,5 @@
     - Unsplash images: https://unsplash.com/
     - axios needed for unsplash api: npm i axios
     - Prisma Schema upate: dont for get to push the schema update: npx prisma db push
-    - 
-    - completed through lesson 100
+    - vercel has a 10 second lag timeout which can effect rendering, see lessons 96 and 103 for discussion and suggestions
+    - completed through lesson 103
