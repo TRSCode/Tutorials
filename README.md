@@ -178,3 +178,9 @@
     - Prisma Schema upate: dont for get to push the schema update: npx prisma db push
     - vercel has a 10 second lag timeout which can effect rendering, see lessons 96 and 103 for discussion and suggestions
     - completed through lesson 103
+    - ***jobify*** (next.js | Shadcn-ui | clerk | Typescript | Render | Prisma | Toast | Stats | Charts | Vercel)
+    - install this time with Typescript and eslint
+    - initial install loads all dependencies for the project and are specific regarding versions
+    - production app: https://nextjs-jobify-production.vercel.app/
+    - 
+    - complete through lesson 105
