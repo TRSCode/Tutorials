@@ -149,7 +149,7 @@
 - ### NextJS_OpenAI "nextjs_openai" <a name="nextjs_openai"></a>
 - [Back to Table of Contents](#table-of-contents)
     - Udemy Course (nextjs-tutorial, gptgenius, jobify)
-    - Udemy: https://www.udemy.com/course/nextjs-open-ai/learn/lecture/40903536#overview
+    - Udemy: https://www.udemy.com/course/nextjs-open-ai/learn/lecture/41657854#overview
     - GitHub: https://github.com/john-smilga/nextjs-course-openai
     - ***nextjs-tutorial***
     - Demo Vercel: https://nextjs-tutorial-production.vercel.app/
@@ -182,5 +182,6 @@
     - install this time with Typescript and eslint
     - initial install loads all dependencies for the project and are specific regarding versions
     - production app: https://nextjs-jobify-production.vercel.app/
-    - 
+    - shadcn/ui (requires 2 more installs): https://ui.shadcn.com/
+    - Lucide React (icon library used by Shadcy): https://lucide.dev/guide/packages/lucide-react
     - complete through lesson 105
