@@ -188,4 +188,4 @@
         - Favicon: https://favicon.io/
         - unDraw: https://undraw.co/
         - Logo - Figma: https://www.figma.com/community
-    - complete through lesson 108
+    - complete through lesson 109
