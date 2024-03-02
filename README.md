@@ -184,4 +184,8 @@
     - production app: https://nextjs-jobify-production.vercel.app/
     - shadcn/ui (requires 2 more installs): https://ui.shadcn.com/
     - Lucide React (icon library used by Shadcy): https://lucide.dev/guide/packages/lucide-react
-    - complete through lesson 105
+    - Logos/Images/Art (good for matching colors in your Theme)
+        - Favicon: https://favicon.io/
+        - unDraw: https://undraw.co/
+        - Logo - Figma: https://www.figma.com/community
+    - complete through lesson 108
