@@ -177,10 +177,10 @@
     - axios needed for unsplash api: npm i axios
     - Prisma Schema upate: dont for get to push the schema update: npx prisma db push
     - vercel has a 10 second lag timeout which can effect rendering, see lessons 96 and 103 for discussion and suggestions
-    - completed through lesson 103
     - ***jobify*** (next.js | Shadcn-ui | clerk | Typescript | Render | Prisma | Toast | Stats | Charts | Vercel)
     - install this time with Typescript and eslint
     - initial install loads all dependencies for the project and are specific regarding versions
+    - using snippets: ***rfce*** in .tsx vs ***rafce*** in .jsx
     - production app: https://nextjs-jobify-production.vercel.app/
     - shadcn/ui (requires 2 more installs): https://ui.shadcn.com/
     - Lucide React (icon library used by Shadcy): https://lucide.dev/guide/packages/lucide-react
@@ -188,4 +188,4 @@
         - Favicon: https://favicon.io/
         - unDraw: https://undraw.co/
         - Logo - Figma: https://www.figma.com/community
-    - complete through lesson 109
+    - complete through lesson 112
