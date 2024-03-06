@@ -188,4 +188,18 @@
         - Favicon: https://favicon.io/
         - unDraw: https://undraw.co/
         - Logo - Figma: https://www.figma.com/community
-    - complete through lesson 121
+    - Render and Prisma:
+        - https://dashboard.render.com/
+        - create render db and get external URL(placed in .env)
+        - add .env to .gitignore
+        - create util/db.ts
+        - update prisma/schema.prisma
+        - already installed
+        - npx prisma init
+        - npx prisma db push
+        - npx prisma studio
+    - Shadcn Toast: npx shadcn-ui@latest add toast
+    - add reactQuery to the project
+    - 
+    - complete through lesson 126
+- [Back to Table of Contents](#table-of-contents)
