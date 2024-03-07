@@ -201,5 +201,5 @@
     - Shadcn Toast: npx shadcn-ui@latest add toast
     - add reactQuery to the project
     - 
-    - complete through lesson 126
+    - complete through lesson 129
 - [Back to Table of Contents](#table-of-contents)
