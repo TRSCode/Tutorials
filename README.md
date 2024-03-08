@@ -200,6 +200,7 @@
         - npx prisma studio
     - Shadcn Toast: npx shadcn-ui@latest add toast
     - add reactQuery to the project
+    - mockaroo (create mock data to seed DB): https://mockaroo.com/
     - 
     - complete through lesson 136
 - [Back to Table of Contents](#table-of-contents)
