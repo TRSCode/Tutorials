@@ -202,5 +202,5 @@
     - add reactQuery to the project
     - mockaroo (create mock data to seed DB): https://mockaroo.com/
     - 
-    - complete through lesson 136
+    - complete through lesson 141
 - [Back to Table of Contents](#table-of-contents)
