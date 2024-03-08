@@ -14,7 +14,7 @@ function JobsList() {
 
     const {data, isPending} = useQuery({
         queryKey:['jobs', search, jobStatus, pageNumber],
-        queryFn: () => getAllJobsAction({search, jobStatus, pageNumber})
+        queryFn: () => getAllJobsAction({search, jobStatus, page:pageNumber})
     })
 
     const jobs = data?.jobs || [];
