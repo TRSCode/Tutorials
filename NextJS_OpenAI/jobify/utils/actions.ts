@@ -160,6 +160,9 @@ export async function getStatsAction(): Promise<{
     interview: number;
     declined: number;
 }> {
+    // similate a pause - remove prior to production
+    await new Promise((resolve) => setTimeout(resolve, 5000));
+
     const userId = authenticateAndRedirect();
 
     try {
