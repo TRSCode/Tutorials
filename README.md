@@ -202,6 +202,7 @@
     - add reactQuery to the project
     - mockaroo (create mock data to seed DB): https://mockaroo.com/
     - recharts(chart components): https://recharts.org/en-US
-
+    - instructors youTube channel: https://www.youtube.com/channel/UCMZFwxv5l-XtKi693qMJptA
+    - John Smilga's Udemy courses: https://www.udemy.com/user/janis-smilga-3/
     - complete 
 - [Back to Table of Contents](#table-of-contents)
