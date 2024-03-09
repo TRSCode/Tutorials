@@ -202,6 +202,6 @@
     - add reactQuery to the project
     - mockaroo (create mock data to seed DB): https://mockaroo.com/
     - recharts(chart components): https://recharts.org/en-US
-    - 
-    - complete through lesson 144
+
+    - complete 
 - [Back to Table of Contents](#table-of-contents)
