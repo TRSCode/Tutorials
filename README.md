@@ -13,6 +13,7 @@
     - [NextJS "NextJS Dasshboard" ](#nextjs_platform_tutorial)
     - [nextJS_Two "nextJS_two" ](#nextjs_two)
     - [nextjs_openai "nextjs_openai" ](#nextjs_openai)
+    - [nextjs_ContactForm" ](#nextjs_contactform)
 
 ## Tutorial Code Along and Other Training <a name="tutorial-code-along-and-other-training"></a>
 
@@ -205,4 +206,9 @@
     - instructors youTube channel: https://www.youtube.com/channel/UCMZFwxv5l-XtKi693qMJptA
     - John Smilga's Udemy courses: https://www.udemy.com/user/janis-smilga-3/
     - cert received and recorded
+- ### NextJS_ContactForm "nextjs_contactform" <a name="nextjs_contactform"></a>
+- [Back to Table of Contents](#table-of-contents)
+    - YouTube Tutorial (NextJS and NodeMailer for file structure): https://www.youtube.com/watch?v=6DAozN-qxr0
+    - 
+    - 
 - [Back to Table of Contents](#table-of-contents)
