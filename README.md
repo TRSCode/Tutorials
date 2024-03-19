@@ -210,5 +210,7 @@
 - [Back to Table of Contents](#table-of-contents)
     - YouTube Tutorial (NextJS and NodeMailer for file structure): https://www.youtube.com/watch?v=6DAozN-qxr0
     - overstack example with sendgrid: https://stackoverflow.com/questions/75276193/nextjs-13-sendgrid
-    - 
+    - YouTube dynamic template tutorial: https://www.youtube.com/watch?v=YqR4kfyO6hc&t=7s
+    - sengrid nodejs: https://www.npmjs.com/package/@sendgrid/mail
+    - npm install dotenv (is needed)
 - [Back to Table of Contents](#table-of-contents)
