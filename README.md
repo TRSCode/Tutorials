@@ -213,4 +213,7 @@
     - YouTube dynamic template tutorial: https://www.youtube.com/watch?v=YqR4kfyO6hc&t=7s
     - sengrid nodejs: https://www.npmjs.com/package/@sendgrid/mail
     - npm install dotenv (is needed)
+    - 
+    - 
+    - Next up: Learn azure
 - [Back to Table of Contents](#table-of-contents)
