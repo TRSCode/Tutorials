@@ -216,4 +216,5 @@
     - 
     - 
     - Next up: Learn azure
+    - Good deployment guide for NextJS and Azure using Containers: https://www.youtube.com/watch?reload=9&v=xm14u2_YY9E
 - [Back to Table of Contents](#table-of-contents)
