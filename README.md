@@ -14,6 +14,7 @@
     - [nextJS_Two "nextJS_two" ](#nextjs_two)
     - [nextjs_openai "nextjs_openai" ](#nextjs_openai)
     - [nextjs_ContactForm" ](#nextjs_contactform)
+    - [future_courses" ](#future_courses)
 
 ## Tutorial Code Along and Other Training <a name="tutorial-code-along-and-other-training"></a>
 
@@ -214,7 +215,9 @@
     - sengrid nodejs: https://www.npmjs.com/package/@sendgrid/mail
     - npm install dotenv (is needed)
     - 
-    - 
-    - Next up: Learn azure
+- ### FutureCourses "future_courses" <a name="future_courses"></a>
+- [Back to Table of Contents](#table-of-contents)
     - Good deployment guide for NextJS and Azure using Containers: https://www.youtube.com/watch?reload=9&v=xm14u2_YY9E
+    - ecommerce site: https://www.youtube.com/watch?v=nGoSP3MBV2E&list=WL&index=7&t=60s
+    - udemy Redux: https://www.udemy.com/course/the-ultimate-redux-course-state-management-library/learn/lecture/34755120#overview
 - [Back to Table of Contents](#table-of-contents)
