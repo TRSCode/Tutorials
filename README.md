@@ -220,4 +220,5 @@
     - Good deployment guide for NextJS and Azure using Containers: https://www.youtube.com/watch?reload=9&v=xm14u2_YY9E
     - ecommerce site: https://www.youtube.com/watch?v=nGoSP3MBV2E&list=WL&index=7&t=60s
     - udemy Redux: https://www.udemy.com/course/the-ultimate-redux-course-state-management-library/learn/lecture/34755120#overview
+    - udemy Azure 204
 - [Back to Table of Contents](#table-of-contents)
