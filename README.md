@@ -14,7 +14,7 @@
     - [nextJS_Two "nextJS_two](#nextjs_two)
     - [nextjs_openai "nextjs_openai](#nextjs_openai)
     - [nextjs_ContactForm](#nextjs_contactform)
-    - [redux](redux)
+    - [redux](#redux)
     - [future courses](#future_courses)
 
 ## Tutorial Code Along and Other Training <a name="tutorial-code-along-and-other-training"></a>
