@@ -10,11 +10,12 @@
     - [FastAPI Complete Course](#fastapi_complete_course)
     - [FastAPI](#fastapi)
     - [RachelChat](#rachel)
-    - [NextJS "NextJS Dasshboard" ](#nextjs_platform_tutorial)
-    - [nextJS_Two "nextJS_two" ](#nextjs_two)
-    - [nextjs_openai "nextjs_openai" ](#nextjs_openai)
-    - [nextjs_ContactForm" ](#nextjs_contactform)
-    - [future_courses" ](#future_courses)
+    - [NextJS "NextJS Dasshboard](#nextjs_platform_tutorial)
+    - [nextJS_Two "nextJS_two](#nextjs_two)
+    - [nextjs_openai "nextjs_openai](#nextjs_openai)
+    - [nextjs_ContactForm](#nextjs_contactform)
+    - [redux](redux)
+    - [future courses](#future_courses)
 
 ## Tutorial Code Along and Other Training <a name="tutorial-code-along-and-other-training"></a>
 
@@ -215,10 +216,18 @@
     - sengrid nodejs: https://www.npmjs.com/package/@sendgrid/mail
     - npm install dotenv (is needed)
     - 
+- ### The Ultimate Redux Course 2023 "redux" <a name="redux"></a>
+- [Back to Table of Contents](#table-of-contents)
+-     - udemy Redux: https://www.udemy.com/course/the-ultimate-redux-course-state-management-library/learn/lecture/34755120#overview
+    - Section 2 reviews functional programming and introduces Lodash
+    - Lodash is a JS library providing functions for common functional programming tasks
+        - https://lodash.com/docs/
+    - 
+
+
 - ### FutureCourses "future_courses" <a name="future_courses"></a>
 - [Back to Table of Contents](#table-of-contents)
     - Good deployment guide for NextJS and Azure using Containers: https://www.youtube.com/watch?reload=9&v=xm14u2_YY9E
     - ecommerce site: https://www.youtube.com/watch?v=nGoSP3MBV2E&list=WL&index=7&t=60s
-    - udemy Redux: https://www.udemy.com/course/the-ultimate-redux-course-state-management-library/learn/lecture/34755120#overview
     - udemy Azure 204
 - [Back to Table of Contents](#table-of-contents)
