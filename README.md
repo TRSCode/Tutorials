@@ -222,7 +222,9 @@
     - Section 2 reviews functional programming and introduces Lodash
     - Lodash is a JS library providing functions for common functional programming tasks
         - https://lodash.com/docs/
-    - 
+    - Immutability Library: Immer --> Redux uses immer in its library
+        - https://immerjs.github.io/immer/
+        - npm i immer
 
 
 - ### FutureCourses "future_courses" <a name="future_courses"></a>
