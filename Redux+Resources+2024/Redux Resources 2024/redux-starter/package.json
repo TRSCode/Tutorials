@@ -15,6 +15,8 @@
     "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "immer": "^10.1.1",
+    "lodash": "^4.17.21",
+    "redux": "^5.0.1"
   }
 }

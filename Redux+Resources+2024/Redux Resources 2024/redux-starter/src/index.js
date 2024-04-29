@@ -1,21 +1,8 @@
-function greeting() {
-    // return "Good Morning!"
-    return function() {
-        return "Good Morning!"
-    }
-}
+import store from './store'
+import {addTask, removeTask} from './action'
 
-// let message = greeting
-// message() // "Good Morning!"
-// greeting() // "Good Morning!"
+store.dispatch(addTask("Task 1"))
 
-// console.log(message) // ƒ greeting() { return "Good Morning!" }
-
-// function printMessage(anFunction) {
-//     console.log(anFunction())
-// }
-
-// printMessage(greeting)
-
-let anFunction = greeting()
-let message = anFunction()
+console.log(store.getState())
+store.dispatch(removeTask(1))
+console.log(store.getState())
