@@ -12,5 +12,6 @@ module.exports = {
     },
     port: 3000,
   },
+  devtool: "source-map", // "eval-source-map
   mode: "development",
 };

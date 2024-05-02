@@ -225,6 +225,13 @@
     - Immutability Library: Immer --> Redux uses immer in its library
         - https://immerjs.github.io/immer/
         - npm i immer
+    - Redux Tool Kit
+        - get the extension for your browser
+        - in "react" chrome, search chrome web store and install react dev tools extension
+        - in vs code add to the store configuration file the below code found in docs
+            - window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+        - to use trace, install npm i redux-devtools-extension
+    - 
 
 
 - ### FutureCourses "future_courses" <a name="future_courses"></a>

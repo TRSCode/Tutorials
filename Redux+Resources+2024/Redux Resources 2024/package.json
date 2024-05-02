@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "immer": "^10.0.4"
+    "immer": "^10.0.4",
+    "redux-devtools-extension": "^2.13.9"
   }
 }
