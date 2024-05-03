@@ -231,7 +231,9 @@
         - in vs code add to the store configuration file the below code found in docs
             - window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
         - to use trace, install npm i redux-devtools-extension
-    - 
+        - update storconfig with import dev tool and replace file above
+        - update webpack with devtool: "source-map",
+        - devtools extension NOT needed after installing toolkit: npm i @reduxjs/toolkit
 
 
 - ### FutureCourses "future_courses" <a name="future_courses"></a>
